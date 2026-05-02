@@ -1,0 +1,61 @@
+ TC01 – Valid Form Submission
+Test Case ID: TC01
+Title: Verify form submission with valid data
+
+Steps:
+1. Open form page
+2. Enter valid First Name
+3. Enter valid Last Name
+4. Enter valid Email
+5. Select Gender
+6. Enter valid Mobile Number
+7. Select Hobbies
+8. Enter Current Address
+9. Click Submit
+
+Expected Result:
+Form should submit successfully and confirmation popup should appear
+ TC02 – Invalid Email
+Test Case ID: TC02
+Title: Verify form with invalid email
+
+Steps:
+1. Enter email as "abc123"
+2. Fill other fields correctly
+3. Click Submit
+
+Expected Result:
+System should show error or prevent submission
+ TC03 – Blank Required Fields
+Test Case ID: TC03
+Title: Verify form submission with empty fields
+
+Steps:
+1. Do not enter any data
+2. Click Submit
+
+Expected Result:
+Required field validation messages should appear
+ TC04 – Invalid Mobile Number
+Test Case ID: TC04
+Title: Verify mobile number validation
+
+Steps:
+1. Enter mobile number less than 10 digits
+2. Click Submit
+
+Expected Result:
+Error message should appear for invalid mobile number
+TC05 – Boundary Testing (Mobile)
+Test Case ID: TC05
+Title: Verify mobile number boundary values
+
+Steps:
+1. Enter 9-digit number
+2. Enter 10-digit number
+3. Enter 11-digit number
+
+Expected Result:
+Only 10-digit number should be accepted
+1. Do not enter any data
+2. Click Submit
